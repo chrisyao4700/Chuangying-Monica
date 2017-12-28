@@ -69,40 +69,20 @@
     <div id="fh5co-header">
       <div class="top">
         <div class="container">
-          <span> <a href="email://"><i>@</i> info@freehtml5.co</a></span>
+          <span> <a href="email://376641846@qq.com"><i>@</i> 376641846@qq.com</a></span>
           <span> <a href="tel://0468-6075111"><i class="icon-mobile3"></i>0468-6075111</a></span>
         </div>
       </div>
       <!-- end:top -->
-      <header id="fh5co-header-section">
-        <div class="container">
-          <div class="nav-header">
-            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-            <h1 id="fh5co-logo"><a href="/">创赢高科</a></h1>
-            <!-- START #fh5co-menu-wrap -->
-            <nav id="fh5co-menu-wrap" role="navigation">
-              <ul class="sf-menu" id="fh5co-primary-menu">
-                <li class="active">
-                  <a href="/">主页</a>
-                </li>
-                <li>
-                  <a href="#">历史沿革</a>
-                </li>
-                <li><a href="#">主要人员</a></li>
-                <li><a href="#">股东信息</a></li>
-                <li><a href="#">对外投资</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <% include components/nav.ejs %>
+
 
     </div>
 
 
     <div class="fh5co-hero">
       <div class="fh5co-overlay"></div>
-      <div class="fh5co-cover text-center" style="background-image: url(images/work-1.jpg);">
+      <div class="fh5co-cover text-center" style="background-image: url(/images/technology.jpg);">
         <div class="desc animate-box">
           <h2>创赢高科</h2>
           <span>宝泉岭农垦创赢电脑电子设备公司</span>
@@ -112,60 +92,7 @@
 
     </div>
     <!-- end:header-top -->
-    <div id="fh5co-work-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 animate-box">
-            <h3 class="heading-section">Selected Work</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and </p>
-          </div>
-          <div class="col-md-9">
-            <div class="row">
-              <div class="col-md-4 col-sm-4">
-                <div class="fh5co-grid animate-box" style="background-image: url(images/work-2.jpg);">
-                  <a class="image-popup text-center" href="#">
-                    <div class="prod-title">
-                      <h3>Don’t Just Stand There</h3>
-                      <span>Illustration, Print</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-8 col-sm-8">
-                <div class="fh5co-grid animate-box" style="background-image: url(images/work-3.jpg);">
-                  <a class="image-popup text-center" href="#">
-                    <div class="prod-title">
-                      <h3>Don’t Just Stand There</h3>
-                      <span>Illustration, Print</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-8 col-sm-8">
-                <div class="fh5co-grid animate-box" style="background-image: url(images/work-4.jpg);">
-                  <a class="image-popup text-center" href="#">
-                    <div class="prod-title">
-                      <h3>Don’t Just Stand There</h3>
-                      <span>Illustration, Print</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-4">
-                <div class="fh5co-grid animate-box" style="background-image: url(images/work-5.jpg);">
-                  <a class="image-popup text-center" href="#">
-                    <div class="prod-title">
-                      <h3>Don’t Just Stand There</h3>
-                      <span>Illustration, Print</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
     <!-- fh5co-work-section -->
     <div id="fh5co-services-section" class="border-bottom">
       <div class="container">
@@ -298,31 +225,9 @@
       <!--</div>-->
     <!--</div>-->
     <!-- fh5co-blog-section -->
-    <footer>
-      <div id="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <p>Copyright 2016 亿苟科技 All Rights Reserved. <br>Made by Ego Software</p>
-            </div>
-            <div class="col-md-6">
-              <ul class="footer-menu">
-                <li class="active">
-                  <a href="/">主页</a>
-                </li>
-                <li>
-                  <a href="#">历史沿革</a>
-                </li>
-                <li><a href="#">主要人员</a></li>
-                <li><a href="#">股东信息</a></li>
-                <li><a href="#">对外投资</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
 
+
+    <% include components/footer.ejs %>
 
   </div>
   <!-- END fh5co-page -->
