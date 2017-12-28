@@ -1,4 +1,4 @@
-/utf-8
+charset=utf-8;
 # Chuangying-Monica #
 
 
